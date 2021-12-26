@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body bgcolor="greenyellow">
+  <center>
+    <button class="btn btn-success">Realtime filter</button>
+    <br>
+    <h4>Choose which filter to apply</h4>
+    <br>
+    <button id="clownnose" class="btn btn-warning" onclick="nose()">Clown Nose<span class="iconify" data-icon="akar-icons:circle-fill" style="color: red;"></span></button>
+    <button id="moustache" class="btn btn-info" onclick="moustache()">Moustache<span class="iconify" data-icon="simple-line-icons:mustache"></span></button>
+    <br>
+    <button class="btn btn-success" id="clickphoto" onclick="takephoto()">Take Snapshot</button>
+  </center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
